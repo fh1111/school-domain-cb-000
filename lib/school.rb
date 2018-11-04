@@ -8,14 +8,13 @@ class School
 
   def initialize(name)
     @name = name
-    #roster
+    @roster = {}
 
-    puts "#{@name}"
-    puts "#{roster}"
+
   end
 
   def roster
-    @roster = {}
+    retrun @roster
   end
 
   def add_student(name,number)
