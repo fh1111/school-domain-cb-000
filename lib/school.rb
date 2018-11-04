@@ -21,7 +21,10 @@ class School
     if (@roster == {})
       @roster[number] = []
       @roster[number] << name
+    elsif roster.keys.contains?(number)
+      @roster[number] << name
     else
+      @roster[number] = []
       @roster[number] << name
     end
     return @roster
