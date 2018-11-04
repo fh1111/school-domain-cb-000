@@ -19,12 +19,12 @@ class School
   end
 
   def add_student(name,number)
-    
+
     @roster[number] =[]
 
-    binding.pry
+    
     @roster[number] << name
-
+    binding.pry
   end
 
 end
