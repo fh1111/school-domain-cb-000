@@ -22,7 +22,7 @@ class School
       @roster[number] = []
       @roster[number] << name
       binding.pry
-    elsif roster.keys.contains?(number)
+    elsif roster.keys.include?(number)
       @roster[number] << name
     else
       @roster[number] = []
