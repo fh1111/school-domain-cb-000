@@ -14,7 +14,7 @@ class School
   end
 
   def roster
-    retrun @roster
+    return @roster
   end
 
   def add_student(name,number)
