@@ -40,7 +40,7 @@ class School
     @roster.each do |grade, list|
       @roster[grade] = list.sort
     end
-
+    return @roster
   end
 
 end
