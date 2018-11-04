@@ -1,4 +1,5 @@
 # code here!
+require 'pry'
 
 class School
 
@@ -18,6 +19,7 @@ class School
   end
 
   def add_student(name,number)
+    binding.pry
     @roster[number] =[]
     @roster[number] << name
 
@@ -27,3 +29,4 @@ end
 
 
 school = School.new("Bayside High School")
+school.add_student("carlos gon", 10)
