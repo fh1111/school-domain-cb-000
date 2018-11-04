@@ -21,7 +21,7 @@ class School
     if (@roster == {})
       @roster[number] = []
       @roster[number] << name
-      binding.pry
+      #binding.pry
     elsif roster.keys.include?(number)
       @roster[number] << name
     else
