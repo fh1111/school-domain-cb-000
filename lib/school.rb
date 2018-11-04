@@ -35,6 +35,10 @@ class School
     @roster[grade]
   end
 
+  def school.sort
+
+  end
+
 end
 
 
