@@ -21,10 +21,8 @@ class School
   def add_student(name,number)
 
     @roster[number] =[]
-
-
     @roster[number] << name
-    @roster
+    return @roster
   end
 
 end
