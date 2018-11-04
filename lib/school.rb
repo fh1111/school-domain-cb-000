@@ -18,8 +18,8 @@ class School
 
   def add_student(name,number)
 
-    if (@roster == nil)
-      @roster[number] =[]
+    if (@roster == {})
+      @roster[number] = []
       @roster[number] << name
     else
       @roster[number] << name
