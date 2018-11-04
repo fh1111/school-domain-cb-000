@@ -7,7 +7,10 @@ class School
 
   def initialize(name)
     @name = name
-    roster
+    #roster
+
+    puts "#{@name}"
+    puts "#{roster}"
   end
 
   def roster
