@@ -22,9 +22,9 @@ class School
 
     @roster[number] =[]
 
-    
+
     @roster[number] << name
-    binding.pry
+    @roster
   end
 
 end
