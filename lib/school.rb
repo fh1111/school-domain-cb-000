@@ -10,7 +10,6 @@ class School
     @name = name
     @roster = {}
 
-
   end
 
   def roster
@@ -19,8 +18,12 @@ class School
 
   def add_student(name,number)
 
-    @roster[number] =[]
-    @roster[number] << name
+    if (@roster == nil)
+      @roster[number] =[]
+      @roster[number] << name
+    else
+      @roster[number] << name
+    end
     return @roster
   end
 
