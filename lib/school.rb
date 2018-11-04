@@ -37,6 +37,10 @@ class School
 
   def sort
 
+    @roster.each do |grade, list|
+      @roster[grade] = list.sort
+    end
+
   end
 
 end
